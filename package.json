@@ -1,0 +1,32 @@
+{
+  "name": "who-set-it",
+  "version": "0.1.0",
+  "description": "Track where object properties are assigned",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/continuationlabs/who-set-it",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuationlabs/who-set-it.git"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/who-set-it/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "belly-button -f",
+    "test": "npm run lint && lab -v -t 100"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "belly-button": "4.x.x",
+    "lab": "14.x.x"
+  },
+  "keywords": [
+    "leak",
+    "detection",
+    "leak detection"
+  ]
+}
