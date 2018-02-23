@@ -3,8 +3,8 @@
 [![Current Version](https://img.shields.io/npm/v/who-set-it.svg)](https://www.npmjs.org/package/who-set-it)
 [![Build Status via Travis CI](https://travis-ci.org/continuationlabs/who-set-it.svg?branch=master)](https://travis-ci.org/continuationlabs/who-set-it)
 ![Dependencies](http://img.shields.io/david/continuationlabs/who-set-it.svg)
+[![belly-button-style](https://img.shields.io/badge/eslint-bellybutton-4B32C3.svg)](https://github.com/continuationlabs/belly-button)
 
-[![belly-button-style](https://cdn.rawgit.com/continuationlabs/belly-button/master/badge.svg)](https://github.com/continuationlabs/belly-button)
 
 Track where object properties are assigned. The primary use case is to track the location of global variable leaks.
 
